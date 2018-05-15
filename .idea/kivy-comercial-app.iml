@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/estudo de python/modulo1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kivy-designer" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python kivy27" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

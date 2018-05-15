@@ -1,0 +1,41 @@
+<MusicPlayer>:  # esta é a classe que será representada graficamente pelo arquivo Kv
+    BoxLayout:  # decidimos utilizar o gerenciado de layout "BoxLayout"
+                # para detalhes do BoxLayout visite https://cadernodelaboratorio.com.br/2015/05/12/tutorial-kivy-exp3/
+
+        orientation:'vertical'   #os widgets serão dispostos na vertical , um label e dois botões
+        spacing: 50              #entre cada widget teremos um espaço de 50 pixels
+        padding: [20,20,20,20]   #em torno de cada widget temos uma "moldura" com espaço em branco de 20 pixels
+
+        Label:                   #Temos um texto (label) como primeiro elemento da tela
+            text: 'www.cadernodelaboratorio.com.br'
+            font_size: '40dp'   #o tamanho do fonte está em dp. Se não souber o que é isto visite
+                                #https://cadernodelaboratorio.com.br/2017/09/27/sobre-o-tamanho-dos-widgets-kivy/
+
+            bold: True          #o texto estará em negrito
+            color: [1,0,0,0.5]  #a cor será uma mistura de vermelho e azul
+
+            font_name: 'Roboto-Bold'  #este font existe em todas as plataformas
+
+            size_hint: None,.5    #aqui definimos o tamanho do label
+
+            pos_hint: {'center_x':.5,'center_y':.5}  #aqui definimos a posição do label
+
+            text_size: None,None   #não restringimos o tamanho do texto em nenhuma dimensão
+
+
+        Button:                         # criamos o primeiro botão
+            text: 'Tocar próxima música!'  #este é o texto que irá aparecer no botão
+            font_size: '20sp'  # tamanho do font do texto.
+            size_hint: .4,.2   #dimensões x e y do botão
+            pos_hint: {'center_x':.5,'center_y':.5}  #posição do botão
+            on_press: root.tocarProxima() # este método será chamado sempre que pressionamos o botão
+                                          # o botão pertence a classe MusicPlay, "pai" do botão.
+
+
+        Button:                        #criamos o segundo botão
+            text: 'Parar'              #este é o texto que irá aparecer no botão
+            font_size: '20sp'          # tamanho do font do texto.
+            size_hint: .4,.2           #dimensões x e y do botão
+            pos_hint: {'center_x':.5,'center_y':.5}  #posição do botão
+            on_press: root.pararMusica() # este método será chamado sempre que pressionamos o botão
+                                          # o botão pertence a classe MusicPlay, "pai" do botão.
