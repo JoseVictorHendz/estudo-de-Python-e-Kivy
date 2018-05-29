@@ -24,31 +24,31 @@ class CameraDemo(FloatLayout):
     def __init__(self):
         super(CameraDemo, self).__init__()
         self.cwd = getcwd() + "/"
-        self.ids.path_label.text = self.cwd
+        # self.ids.path_label.text = self.cwd
 
-    def do_capture(self):
+    def tirarFoto(self):
         filepath = self.cwd + self.ids.filename_text.text
         ext = splitext(filepath)[-1].lower()
 
         if(exists(filepath)):
-            popup = MsgPopup("Picture with this name already exists!")
+            popup = MsgPopup("Ja existe uma foto com este nome!")
             popup.open()
             return False
 
         try:
             camera.take_picture(filename=filepath,
-                                on_complete=self.camera_callback)
+                                on_complete=self.retornoCamera)
         except NotImplementedError:
             popup = MsgPopup(
-                "This feature has not yet been implemented for this platform.")
+                "nao tem suporte para esta plataforma")
             popup.open()
 
-    def camera_callback(self, filepath):
+    def retornoCamera(self, filepath):
         if(exists(filepath)):
-            popup = MsgPopup("Picture saved!")
+            popup = MsgPopup("Foto salva!")
             popup.open()
         else:
-            popup = MsgPopup("Could not save your picture!")
+            popup = MsgPopup("nao foi possivel salvar")
             popup.open()
 
 
@@ -71,7 +71,7 @@ class CameraDemoApp(App):
 class MsgPopup(Popup):
     def __init__(self, msg):
         super(MsgPopup, self).__init__()
-        self.ids.message_label.text = msg
+        self.ids.menssagem.text = msg
 
 
 if __name__ == '__main__':

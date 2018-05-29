@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: 'vertical'
+    Button:
+        text: 'reconhecer um objeto'
+        on_release: app.tirar_foto()
+
+    Button:
+        text: 'reconhecer uma cor'
+        on_release: app.tirar_foto()
+
+    Button:
+        text: 'Sair do aplicativo'
+        on_release: app.stop()

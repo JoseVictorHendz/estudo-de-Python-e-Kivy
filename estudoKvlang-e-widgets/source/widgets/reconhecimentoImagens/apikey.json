@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "plenary-byway-205210",
+  "private_key_id": "7b24cc0d87f62fa4fa76d2b138f8da7695b15a19",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9qHVPl5kGOlv1\npoz1f/OExwwCOE0pJkUdV3Z1D6hM5y09ufhUusCpFk4eOntwdaKcHt3TXpmB6QZ6\nXneEElyKd5LBcdJQtEJoQXmBv77ZSeh2dymrXNaG2V3BMGrdut7rcfZzebyCyWi2\nb7LT67+BdCH3NaMWL5vP9mrYiBzXeKeVW12a4KB2i1vgV+eMjrtyEes5Oe+YcSR+\noStRtj7JRaJnoYVytZIboDDwWMbDgjmg9Fw+FdgmFKh0wzxDNkAKYgU6AT3EsGXG\nnx+HIyfp4ly3gg6eRiFSb5NTbTjUN4ITRAZlJE6KJMcHHyzt6AA/cB0nXAUg30N0\nEkUB2WLZAgMBAAECggEACGsa0e6bt0AN5uh+p0MHryQar1qKakItnTDNrEKGqOs2\nAeBoWnJzrM21p/fWlNZT4nQoSoKPc8nBJNtemLkr7GWEWRvRRw3JSNFnMFAvi3uR\nWvjNG7MiPpgVZkbc53ys+mxzkQqdSHziLf7lRCzZskhSXaO+2nRAiUmZ0oSwKww3\nbFpuHO3OBSTz5w4Wk7PsDc2J/0lXkSMW41lKA/x5DP+UShH4KXA4fHXoQzvdeiDJ\nCtQUUYlxct3VyGUk8HnUQYRWBsiwPTmpP3BPsYZRwmIoeTGP6+8bG5vT9FxILLgl\nkfMAkwV//h9aR2gNhlcQungkux0za6C6fV/Hm7HClQKBgQDc5cMeQ7suMJ9OM5TJ\nKwIsBBsERS2OYhFlN5gpLpbnzIlMo6HYDBWZd/WgQ8E+gImDuUAbkLd/kOsuOCut\n3moDa1GpiSGbb7fYMuW+RYdPfbj2ZrBJ6tk3X3wcttGIXAjgZ+/3Xb6awCBFsTFl\nwndojzaPGiwRYDMhjdW/Alk6ywKBgQDby9tDtX4R05vg+AFedydg5nneKxu0gkM7\naSonQAhHoiAa1aoeRcQlowQAEsB6nyzhlqSTQfAq+FDu/v8bJMCOWG8AVWA0P4HL\nsr1qmVisn5AGAn5rbCQLPTsi0Ql4PE/e/6ww/vFF/rNrWy4GrE/Zd6Z8E4eOTO+I\nPM6ykt9wawKBgBj4H8YcAdyGwnskeX0Dz4sKK8OfzjZ5/11hm2GMUqKBDEQNew3g\nz9A5Lxqejglynhi1p/l1skhJKUxgLQ/KRFF+oAx548KeLjnSBwYq9dCWdYHkuaih\nU0xfDrhwMd8oCBjVptpfTlxPu1YlYWAPS1AWYCRs4O5V4XG5hp/AtDVhAoGBAIzm\n8ahFSA1rh2k/87i4UAE5nvSC1B7yxuDmOQSyctxhHY22XXlMpkKub1kQrF2vfxka\n9mQEiE8zosajp6yh8eMO5BHlqWe1MqL/8ZfNuF/pZm3D2YFJ8Q1XcnqOYTC4EUfW\nxW8fcFK7xg9Tg3z5p7K0loDCEEt0HLZMrQEjUKQDAoGAePVokgFOmWety+G9yh2I\nF7F5gVaiv/nTxNHxBj+DuPMG39ObKGyqBVm7Ypq1tx5qIYc6bRt7ZApVIpDRTykI\nvVsmGndpAlwZb66NtN7y1vvelPy2iqnj2wbDP073gg0xh4KYLT/eueop21YAqcqn\ns+9g//UvD6TCbpCrct76SCU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kivyassistentevisual@plenary-byway-205210.iam.gserviceaccount.com",
+  "client_id": "106533294846591729217",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kivyassistentevisual%40plenary-byway-205210.iam.gserviceaccount.com"
+}
